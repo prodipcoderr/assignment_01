@@ -13,10 +13,6 @@ font-family: 'Merriweather',serif; */
   margin: 0px auto;
 }
 
-body {
-  background-color: #fff;
-}
-
 /* ======================= */
 /* New year party section */
 /* ======================= */
@@ -83,12 +79,12 @@ body {
 .welcome-party-section {
   margin-top: 50px;
   border-radius: 16px;
-  padding: 150px 120px;
+  padding: 65px 120px;
   background: linear-gradient(108deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(../img/Vectorrr.png);
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
+  background-size: cover;
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
@@ -108,7 +104,6 @@ body {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
@@ -117,9 +112,7 @@ body {
   text-align: center;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 34px;
@@ -158,7 +151,6 @@ body {
   color: #070211;
   font-family: Inter;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
@@ -192,24 +184,19 @@ body {
   text-align: left;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .coming-soon-offer h3 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
   text-transform: capitalize;
 }
 .coming-soon-offer p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
@@ -225,16 +212,13 @@ body {
   font-family: Inter;
   font-size: 48px;
   margin-top: 150px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .coming-soon-year p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px;
 }
@@ -243,8 +227,12 @@ body {
   margin-top: 15px;
 }
 
-/*----------------- */
-
+/* ======================= */
+/* Holiday seals section*/
+/* ======================= */
+section.Holiday-seals {
+  padding: 100px 0px;
+}
 .Holiday-seals-text {
   text-align: center;
   padding: 50px 0px;
@@ -253,25 +241,18 @@ body {
   color: #070211;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .Holiday-seals-text h3 {
   color: #f00;
-  text-align: center;
   font-family: Merriweather;
   font-size: 72px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
 }
 .Holiday-seals-text p {
   color: rgba(7, 2, 17, 0.6);
-  text-align: center;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 160% */
 }
@@ -301,12 +282,12 @@ body {
 }
 .holidays-images1 img {
   position: absolute;
-
   top: 30px;
-
   left: 730px;
 }
-/* ------------------ */
+/* ======================= */
+/* Portfolio-section*/
+/* ======================= */
 
 .party-portfolio-section {
   padding: 150px 0px;
@@ -315,17 +296,13 @@ body {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .party-portfolio-section h3 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
   text-transform: capitalize;
   margin-bottom: 10px;
   margin-top: 15px;
@@ -334,7 +311,6 @@ body {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
@@ -346,7 +322,10 @@ body {
   margin-top: 48px;
 }
 
-/* Newslatter  */
+/* ======================= */
+/* Newsletter Section*/
+/* ======================= */
+
 .party-newsletter {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
@@ -357,7 +336,6 @@ body {
 
 .party-newsletter h2 {
   color: #070211;
-  text-align: center;
   font-family: Merriweather;
   font-size: 48px;
   font-style: normal;
@@ -368,10 +346,8 @@ body {
 }
 .party-newsletter p {
   color: rgba(7, 2, 17, 0.6);
-  text-align: center;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
@@ -395,7 +371,6 @@ body {
 
 .form-section [type="submit"] {
   padding: 17px 20px;
-  color: white;
   background: #f00;
   outline: none;
   border: none;
@@ -409,7 +384,10 @@ body {
   border-bottom-right-radius: 150px;
 }
 
-/*  */
+/* ======================= */
+/* Footer Section*/
+/* ======================= */
+
 footer {
   padding: 150px;
   background-color: #070211;
@@ -426,26 +404,22 @@ footer {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
 }
 .fotter-info-one ul {
   list-style: none;
-
   gap: 6px;
 }
 .fotter-info-one li {
   display: flex;
+  align-items: center;
+  gap: 16px;
   color: #fff;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
-  display: flex;
-  align-items: center;
-  gap: 16px;
+  line-height: 40px;
 }
 
 .fotter-info-one li img {
@@ -465,12 +439,9 @@ footer {
 .fotter-info-three {
   display: flex;
   justify-content: space-between;
-  color: white;
   color: #fff;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   padding: 50px 0px;
 }
