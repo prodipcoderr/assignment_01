@@ -322,6 +322,10 @@ section.Holiday-seals {
   margin-top: 48px;
 }
 
+.portfolio-images img:hover{
+  box-shadow: 2px 3px 12px rgb(161, 161, 161);
+  border-radius: 17px;
+}
 /* ======================= */
 /* Newsletter Section*/
 /* ======================= */
